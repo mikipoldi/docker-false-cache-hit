@@ -5,7 +5,7 @@ having docker registry running on host.docker.internal:5000 (images uses it as p
 ```shell
 docker buildx create --name multi-platform --use
 ```
-git init
+
 ## Set all files in repo to epoch
 ```shell
 find . -exec touch -t 197001010000 {} \;
